@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3002;
+const port = 3001;
 const swaggerUi = require('swagger-ui-express');
 const YAML = require('yamljs');
 const swaggerDocument = YAML.load('./MicrosoftAPIv2.0/MicrosoftAPIv2.0.yaml');
